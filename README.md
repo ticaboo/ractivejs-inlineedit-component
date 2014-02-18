@@ -1,5 +1,7 @@
 # inline-edit. A Ractivejs component
 
+Draft v0.0.0. not for public consumption, yet.
+
 Dispenses with plethora of stuff you dont need and leaves an nicer, easier user experience. Whats not to like? Instead of having a modal, form, save and cancel buttons just drop in this component.
 
 instructions:
@@ -37,8 +39,10 @@ This is such a simple component it's probably not worth extending it. Better to 
 
 ##todo
 
+ - build to dist with bundled template into component.
+ - example
+ - ci
  - change proxy click to tap for touch devices.
- - build to bundle template into component.
  - take out inline styles.
  - allow partial template override.
 
