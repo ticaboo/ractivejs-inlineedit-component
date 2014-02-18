@@ -1,14 +1,8 @@
-// see: http://engineering.yp.com/post/ractive-js
-
-//add tooltip component - shift enter for new lines. enter when finsihed editing.
-//or just click anywhere else.
 define(function(require) {
 	'use strict';
 
-
 	return {
-	 // el: '.inlineEdit',
-	 	template: require('rv!components/inline-edit/inline-edit-template'),
+	 	template: require('rv!../bower_components/ractive-inline-edit/inline-edit-template'),
 	   init: function (event) {
 	    this.on( 'add', function (event) {  
 	    	this.set('adding', true);
@@ -23,11 +17,6 @@ define(function(require) {
 				this.set('adding', false);	
 			}
 	    });
-	  },
-	    complete: function() {
-        	//console.log('inlineedit complete');
-      }
+	  }
 	}
-
-
 });
